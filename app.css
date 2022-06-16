@@ -40,10 +40,12 @@ img{
 .card{
     background-color: black;
     color: white;
-    width: 300px;
+    width: calc(calc(100% - 30px) / 3);
     height: 70px;
     font-family: Helvetica;
     float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
 }
 
 .card__name{

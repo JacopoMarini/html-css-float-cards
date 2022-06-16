@@ -31,10 +31,18 @@
 
 .description{
     vertical-align: middle;
+    padding-left: 100px;
+    padding-top: 5px;
 }
 
 img{
     float: left;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
 }
 
 .card{
@@ -42,7 +50,7 @@ img{
     color: white;
     width: calc(calc(100% - 30px) / 3);
     height: 70px;
-    font-family: Helvetica;
+    font-family: Calibri;
     float: left;
     margin-right: 10px;
     margin-bottom: 30px;
@@ -50,21 +58,17 @@ img{
 
 .card__name{
     color: white;
-    padding-left: 100px;
-    padding-top: 5px;
     font-size: 18px;
     font-weight: 800;
 }
 
 .card__role{
-    padding-left: 100px;
-    padding-top: 5px;
     font-size: 14px;
+    padding-top: 3px;
 }
 
 .card__mail{
-    padding-left: 60px;
-    padding-top: 10px;
     font-size: 14px;
     color: dodgerblue;
+    padding-top: 5px;
 }

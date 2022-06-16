@@ -1,8 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header__container{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 .header__title{
     text-align: center;
     font-family: helvetica;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    width: 100%;
+    color: magenta;
 }
 
 .paragrafo{
     text-align: center;
+    margin: auto;
+}
+
+.container{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.description{
+    vertical-align: middle;
+}
+
+img{
+    float: left;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 70px;
+    font-family: Helvetica;
+}
+
+.card__name{
+    color: white;
+    padding-left: 100px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.card__role{
+    padding-left: 100px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.card__mail{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: dodgerblue;
 }
